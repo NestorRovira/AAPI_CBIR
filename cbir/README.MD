@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-- Python >= 3.8
+- Python >= 3.10
 
 ## Instalación
 
@@ -13,22 +13,11 @@
     cd cbir
     ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
+2. Crea un entorno virtual con conda (opcional pero recomendado):
 
     ```bash
-    python -m venv cbir
-    ```
-
-    En Windows :
-
-    ```
-    cbir\Scripts\activate
-    ```
-
-    En macOS/Linux :
-
-    ```
-    source cbir/bin/activate  
+    conda create -n cbir_env python=3.10
+    conda activate cbir_env
     ```
 
 3. Instala las dependencias:
