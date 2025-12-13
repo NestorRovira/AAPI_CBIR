@@ -1,7 +1,37 @@
-# Repositorio de la Asignatura Algoritmos y Arquitectura de Procesado de Imágenes
+# CBIR
 
-## Curso 2025-26
+## Requisitos
 
-Bienvenido al repositorio oficial de la asignatura Algoritmos y Arquitectura de Procesado de Imágenes del curso 2025-26. Esta asignatura está diseñada para proporcionar a los estudiantes los conocimientos fundamentales y avanzados necesarios para comprender, manipular y analizar imágenes en distintos dominios.
+- Python >= 3.10
 
-El procesamiento de imágenes es una disciplina clave en campos como la visión por computadora, la medicina, la industria y la investigación científica. Los estudiantes aprenderán a aplicar técnicas avanzadas para extraer información relevante de imágenes, realizar anotaciones semánticas y ejecutar algoritmos de recuperación de imágenes en grandes bases de datos.
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+    ```bash
+    git clone https://github.com/upm-classes/aapi_2025
+    cd cbir
+    ```
+
+2. Crea un entorno virtual con conda (opcional pero recomendado):
+
+    ```bash
+    conda create -n cbir_env python=3.10
+    conda activate cbir_env
+    ```
+
+3. Instala las dependencias:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Ejecución
+
+Para ejecutar la aplicación, usa el siguiente comando:
+
+```bash
+streamlit run app.py
+```
+
+La aplicación se ejecutará en <http://localhost:8501>
